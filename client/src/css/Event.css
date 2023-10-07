@@ -1,6 +1,24 @@
+
+
+.event-container {
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+    /* width: 400px;
+    height: 100%;
+    padding: 50px; */
+}
+.event{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 0;
+}
 .event-information {
     position: relative;
-    width: 350px;
+    display: flex;
+
+    width: 250px;
     height: 350px;
     padding: 0px;
     margin: 20px;
